@@ -1,0 +1,13 @@
+Colab과 GoogleDrive 연동
+
+1. 아래의 코드를 복사해서 붙여 넣고, 실행해주세요.
+
+   그리고 링크가 나왔다면 클릭해서 구글 계정에 로그인해주세요.
+
+from google.colab import drive
+drive.mount('/content/gdrive/')
+
+허용 코드 복사 붙여넣기 해주면 연동 끝
+
+
+출처: https://leti-lee.tistory.com/3 [직장인 홍니 IT 공부 ]
